@@ -1,0 +1,11 @@
+# Install a matching CPU/CUDA PyTorch build first (see README).
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+timm==0.4.5
+numpy>=1.22.4,<2
+pandas>=1.5,<3
+scipy>=1.10,<2
+soundfile>=0.12,<0.14
+librosa>=0.10,<0.12
+resampy>=0.4,<0.5

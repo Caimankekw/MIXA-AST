@@ -1,0 +1,44 @@
+# Local environments and Python caches
+.venv/
+venv/
+venvast/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Data, features, weights and generated experiment output
+data/
+exp/
+outputs/
+checkpoints/
+pretrained_models/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.wav
+*.flac
+*.mp3
+*.csv
+*.log
+
+# Development documents and archives are not part of the source release
+*.pdf
+*.docx
+*.pptx
+*.mp4
+*.zip
+*.tar
+*.gz
+papers/
+reports/
+
+# Local credentials
+.env
+.env.*
+*.pem
